@@ -45,7 +45,7 @@ class BinarySearchTree:                              # worst case O(n), average 
         else:
             return self.value                         
 
-    # Search each node in tree
+    # Search each node in entire tree
     def for_each(self, cb):                          
         cb(self.value)                                 
         if self.right:                                 
